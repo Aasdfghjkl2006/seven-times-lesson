@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>9的乘法口诀及求商 · 第四课时 修订07 · 教学流程自检版</title>
+<style>
+:root{--ink:#30443d;--muted:#827561;--green:#315d49;--each:#277d9c;--groups:#ba652f;--total:#30443d;--paper:#fffaf0;--gold:#e9b951}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;background:#f5eddd;color:var(--ink)}button,select{font:inherit;color:inherit}button{cursor:pointer}button:focus-visible,select:focus-visible{outline:3px solid #277d9c;outline-offset:4px}button:disabled{opacity:.4;cursor:default}
+.app{height:100dvh;display:grid;grid-template-rows:74px minmax(0,1fr) 66px;padding:0 26px;position:relative;isolation:isolate;background:radial-gradient(ellipse at 12% 0%,#fffdf6,transparent 60%),linear-gradient(100deg,#f7efdf,#faf5e9)}.app:before{content:"";position:absolute;bottom:8%;left:0;right:0;height:22%;background:repeating-linear-gradient(0deg,transparent,transparent 37px,#9a7f4b08 38px,transparent 39px);z-index:-1;transform:skewY(-2deg);pointer-events:none}
+header{display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid #bea77e40}.brand{display:flex;align-items:center;gap:12px;white-space:nowrap}.seal{width:45px;height:45px;display:grid;place-items:center;background:var(--green);color:#fff6df;font:700 33px Georgia,serif;border-radius:13px;box-shadow:0 4px 0 #1d3d2e}.brand b{font-size:19px;letter-spacing:1px}.brand small{display:block;margin-top:4px;font-size:12px;letter-spacing:2px;color:var(--muted)}nav{display:flex;gap:6px}nav button{border:0;border-bottom:3px solid transparent;background:transparent;padding:18px 22px 15px;font-size:18px;font-weight:700}nav button[aria-selected=true]{border-bottom-color:var(--green);color:var(--green)}nav span{font:italic 19px Georgia,serif;margin-right:9px;color:#a28965}.tools{display:flex;gap:8px}.quiet{border:1px solid #c4af8955;border-radius:9px;background:#fffaf09c;padding:9px 13px;font-size:14px}.quiet:hover{background:#fffdf7}
+main{min-height:0;display:grid;grid-template-rows:74px minmax(0,1fr)}.question{display:flex;align-items:center;gap:19px;padding:8px 22px 0}.kicker{border-right:1px solid #bba37c55;padding-right:18px;display:grid;gap:4px;white-space:nowrap;font-size:13px;color:var(--muted)}.kicker b{font:italic 22px Georgia,serif;color:#9c7546}h1{margin:0;font-size:clamp(25px,2.35vw,41px);line-height:1.35;letter-spacing:.025em}.scene-wrap{position:relative;min-height:0;display:grid;place-items:center}#scene{width:100%;height:100%;display:block}#scene text{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;fill:var(--ink);font-weight:700}#scene .each{fill:var(--each)}#scene .groups{fill:var(--groups)}#scene .muted{fill:var(--muted)}#scene .soft{fill:#a59071}#scene .token{filter:url(#object-shadow)}.footer{display:flex;align-items:center;justify-content:space-between;gap:16px;border-top:1px solid #bea77e40}.progress{display:flex;align-items:center;gap:14px;font-size:13px;color:var(--muted);min-width:240px}.track{width:100px;height:4px;background:#dfd0b5;border-radius:5px;overflow:hidden}.track i{display:block;height:100%;background:var(--green);transition:width .2s}.controls{display:flex;gap:12px}.step{border:1px solid #c5ae8755;border-radius:12px;padding:11px 25px;background:var(--paper);font-weight:700;box-shadow:0 3px 0 #cdb79155;font-size:17px}.next{background:var(--green);color:#fff7e5;border-color:var(--green);min-width:140px;box-shadow:0 3px 0 #244634}.utility{display:flex;gap:7px}.step-label{max-width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+dialog{padding:0;border:1px solid #d6c3a2;border-radius:19px;max-height:90dvh;background:var(--paper);color:var(--ink);width:min(980px,94vw);box-shadow:0 20px 90px #1c3c2b66}dialog::backdrop{background:#213e3299}.modal-head{padding:16px 24px;border-bottom:1px solid #d8c6a8;display:flex;justify-content:space-between;align-items:center;gap:20px}.modal-head h2{margin:0;font-size:22px}.modal-body{padding:24px;overflow:auto;max-height:calc(90dvh - 73px)}#book{width:min(850px,94vw)}#book .modal-body{background:white}#book img{display:block;width:100%;height:auto}.teacher-layout{display:grid;grid-template-columns:1fr 1.1fr;gap:30px}.teacher-layout label{display:block;margin-bottom:20px;font-size:16px}.teacher-layout select{display:block;width:100%;margin-top:9px;border:1px solid #c9b28b;border-radius:8px;padding:10px;background:#fffef8}.teacher-layout p{font-size:17px;line-height:1.75}.note{border-left:4px solid #bf8750;padding-left:20px}.note h3{font-size:21px;margin-top:0}.switches{display:flex;gap:9px;flex-wrap:wrap}
+@media(max-height:810px){.app{grid-template-rows:64px minmax(0,1fr) 60px;padding:0 20px}main{grid-template-rows:65px minmax(0,1fr)}nav button{padding:15px 17px 12px;font-size:17px}.seal{width:39px;height:39px;font-size:29px}.brand b{font-size:17px}.step{padding:9px 21px;font-size:16px}.question{padding-left:12px}.brand small{font-size:11px}}
+@media(max-width:1120px){.brand small,.track,.step-label{display:none}.brand b{font-size:15px}nav button{padding:15px 12px 12px;font-size:15px}.tools .quiet,.utility .quiet{font-size:12px;padding:8px}.progress{min-width:80px}.app{padding:0 12px}h1{font-size:25px}.question{gap:12px}.kicker{padding-right:12px}}
+@media(max-width:720px){.app{grid-template-rows:104px minmax(0,1fr) 90px;padding:0 8px}header{flex-wrap:wrap;gap:0}.brand{width:68%;margin-top:8px}.tools{margin-top:8px}nav{order:3;width:100%;justify-content:center}nav button{padding:11px 10px;font-size:14px}.kicker{display:none}main{grid-template-rows:60px minmax(0,1fr)}h1{font-size:20px}.question{padding:8px}.footer{flex-wrap:wrap;justify-content:center;padding:5px;gap:6px}.controls{order:0}.utility{order:1}.progress{order:2}.step{padding:9px 17px;font-size:14px}.next{min-width:120px}.teacher-layout{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.track i{transition:none}}
+
+/* Keep an equal reserved row from the opening state, so moving the problem does not resize the model. */
+main{--head-height:74px;--problem-height:66px;grid-template-columns:minmax(0,1fr);grid-template-rows:var(--head-height) minmax(0,1fr)}
+main.has-problem{grid-template-rows:var(--head-height) minmax(0,1fr) var(--problem-height)}
+.question{grid-column:1;grid-row:1}.scene-wrap{grid-column:1;grid-row:2}
+.problem-card{grid-column:1;grid-row:1;align-self:center;justify-self:center;width:calc(100% - 40px);min-height:58px;display:flex;align-items:center;gap:18px;padding:9px 20px;border:1px solid #b4c7ae;border-left:5px solid #527d60;border-radius:14px;background:#fffdf4;box-shadow:0 4px 10px #8e795513;z-index:2;pointer-events:none}
+.problem-card[hidden],#finishDistribution[hidden],#support[hidden]{display:none}.problem-card[data-position="bottom"]{grid-row:3}
+.problem-label{flex:none;font-size:15px;color:#527d60;font-weight:700}.problem-card p{margin:0;font-size:clamp(20px,2.05vw,30px);line-height:1.4;font-weight:700;overflow-wrap:anywhere}
+main.problem-opening .question{visibility:hidden}
+@media(max-height:810px){main{--head-height:65px}}
+@media(max-width:1120px){.problem-card{width:calc(100% - 18px);gap:10px;padding:8px 12px}.problem-card p{font-size:21px}}
+@media(max-width:720px){main{--head-height:66px;--problem-height:84px}.problem-card{min-height:60px}.problem-card p{font-size:18px}.problem-label{font-size:12px}.controls{gap:7px}#finishDistribution{padding:7px;font-size:12px}}
+#scene [data-unit-choice]{cursor:pointer}#scene .unit-choice:hover rect{fill:#f3e2b6}#scene .unit-choice:focus-visible{outline:none}#scene .unit-choice:focus-visible rect{stroke:#315d49;stroke-width:4}#unitMotion{pointer-events:none}
+.lesson-focus{padding-bottom:12px;margin-bottom:18px;border-bottom:1px solid #d8c6a8}.lesson-focus p{font-size:15px;margin:6px 0 14px;line-height:1.6}.book-text p{font-size:21px;line-height:1.8}.book-text h3{font-size:24px}.source-note{color:#827561;font-size:14px!important}main.problem-opening{grid-template-rows:var(--problem-height) var(--head-height) minmax(0,1fr)}main.problem-opening .question{visibility:visible;grid-row:2}main.problem-opening .scene-wrap{grid-row:3}main.problem-opening .problem-card{grid-row:1}</style>
+</head>
+<body>
+<div class="app">
+<header><div class="brand"><div class="seal">9</div><div><b>乘法口诀及求商</b><small>口诀小课堂 · 第四课时 · 修订07</small></div></div><nav role="tablist" aria-label="教学环节"><button id="tab0" role="tab" aria-controls="classroom" data-section="0"><span>01</span>看苹果 · 编口诀</button><button id="tab1" role="tab" aria-controls="classroom" data-section="1"><span>02</span>看圆片 · 算乘除</button><button id="tab2" role="tab" aria-controls="classroom" data-section="2"><span>03</span>想想做做 · 回顾</button></nav><div class="tools"><button class="quiet" id="bookBtn">教材题目 · R07</button></div></header>
+<main id="classroom" role="tabpanel" aria-labelledby="tab0"><div class="question"><div class="kicker"><b id="topicNumber">01</b><span id="topicLabel">教材例4</span></div><h1 id="question"></h1></div><div class="scene-wrap"><svg id="scene" viewBox="0 0 1600 700" role="img" aria-labelledby="sceneTitle sceneDesc"><title id="sceneTitle"></title><desc id="sceneDesc"></desc><defs id="defs"></defs><g id="decor"></g><g id="objects"></g><g id="annotation"></g><g id="unitMotion"></g></svg></div><div id="problem" class="problem-card" hidden><span id="problemLabel" class="problem-label">原题</span><p id="problemText"></p></div><div id="live" class="sr" aria-live="polite"></div></main>
+<footer class="footer"><div class="progress"><span id="stepCount"></span><div class="track"><i id="progress"></i></div><span id="stateName" class="step-label"></span></div><div class="controls"><button class="step" id="prev">← 上一步</button><button class="quiet" id="support" hidden>提示</button><button class="quiet" id="finishDistribution" hidden>分到最后</button><button class="step next" id="next">下一步 →</button></div><div class="utility"><button class="quiet" id="fingerGuide">手指助记</button><button class="quiet" id="reset">重置本环节</button><button class="quiet" id="teacherBtn">教师</button><button class="quiet" id="fullscreen">全屏</button></div></footer>
+</div>
+<dialog id="teacher"><div class="modal-head"><h2>教师操作与讲课提示</h2><button class="quiet" data-close="teacher">关闭</button></div><div class="modal-body teacher-layout"><div><label>跳到当前环节的步骤<select id="jump"></select></label><label>动画速度<select id="speed"><option value="700">正常</option><option value="1100">慢速</option><option value="0">无动画</option></select></label><p>先列式、计算，再指图解释商，最后选择单位、写答句。选错留在当前题；选对后单位移入括号，再点下一步显示答句。也可口答后点“口答后标注”。提示和分图按需展开。<br>方向键 ← →：上一步 / 下一步<br>空格：下一步　Esc：关闭窗口<br>顶部切换环节，保留各自进度。</p><div class="switches"><button class="quiet" id="resetAll">从头开始整课</button><button class="quiet" id="skipMotion">完成当前动画</button></div></div><div class="note"><div class="lesson-focus"><b>本课重点</b><p>熟记9的乘法口诀，用口诀计算乘法和除法。</p><b>本课难点</b><p>根据题意列式，分清商数的是几份、几组，还是一份里有几个、每组有几人；指图说明单位。</p></div><h3 id="noteTitle"></h3><p id="note"></p><p id="checkpoint"></p></div></div></dialog>
+<dialog id="book"><div class="modal-head"><h2>本课用到的教材题目 · 第48—49页</h2><button class="quiet" data-close="book">关闭</button></div><div class="modal-body book-text"><h3>第48页 · 9的乘法口诀及求商</h3><p>例4：每行9个苹果，填写1—9行的个数，并编出9的乘法口诀。</p><p>用两只手可以帮助我们记忆9的乘法口诀。</p><p>试一试：看3行9列的圆片图，填写两道乘法和两道除法算式。</p><h3>第49页 · 想想做做</h3><p>2. 补出“四九、五九、八九”的口诀，分别计算对应的两道乘法、两道除法。</p><p>3. “数九”是从冬至那天数起，第一个9天是“一九”，第二个9天是“二九”，一直数到“九九”，春天就来了。从冬至起，数多少天春天就来了？</p><p>4.（1）54个小朋友平均分成6组打扫卫生，每组有几人？</p><p>（2）54个小朋友打扫卫生，每组9人，分成了几组？</p><p class="source-note">根据本次对话中的教材图片整理，保留本课选用的题目及其原编号。</p></div></dialog>
+<script>
+'use strict';
+const $=s=>document.querySelector(s), $$=s=>Array.from(document.querySelectorAll(s));
+const NS='http://www.w3.org/2000/svg';
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const T=(x,y,s,size=36,cls='',anchor='middle')=>`<text x="${x}" y="${y}" text-anchor="${anchor}" font-size="${size}" class="${cls}">${esc(s)}</text>`;
+const R=(x,y,w,h,fill,stroke='',r=20)=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${r}" fill="${fill}"${stroke?` stroke="${stroke}" stroke-width="2"`:''}/>`;
+const L=(x1,y1,x2,y2,color='#d4bf9b',width=2)=>`<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${color}" stroke-width="${width}"/>`;
+const paper=(x=1030,y=118,w=515,h=505)=>R(x+6,y+9,w,h,'#a58c6120')+R(x,y,w,h,'#fffdf4','#d7c5a3',19);
+const tray=(x,y,w,h)=>R(x,y+9,w,h,'#b0916520')+R(x,y,w,h,'#f7e9ca','#d3b98b',22);
+const obj=(id,kind,x,y,s=1)=>({id,kind,x,y,s});
+const base=()=>({decor:'',objects:[],annotation:'',description:'',meta:{expectedTotal:0}});
+const defs=`<filter id="object-shadow" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="3" stdDeviation="2" flood-color="#725634" flood-opacity=".15"/></filter>
+<radialGradient id="apple-red" cx="30%" cy="25%"><stop stop-color="#ffb391"/><stop offset=".35" stop-color="#ef735d"/><stop offset="1" stop-color="#be3c3c"/></radialGradient>
+<g id="appleShape"><path d="M0,-19 Q-17,-29 -27,-12 Q-33,9 -18,27 Q-9,33 0,28 Q11,34 22,22 Q35,2 25,-14 Q15,-28 0,-19Z" fill="url(#apple-red)" stroke="#b8413c" stroke-width="1.2"/><path d="M0,-20 Q-3,-29 5,-37" fill="none" stroke="#846348" stroke-width="4" stroke-linecap="round"/><path d="M4,-28 Q8,-41 26,-33 Q17,-22 4,-28" fill="#72955d"/><path d="M-17,-12 Q-23,-4 -18,5" fill="none" stroke="#ffd7b5" stroke-width="4" stroke-linecap="round"/></g>
+<g id="circleShape"><circle r="28" fill="#fffdf7" stroke="#56a9c5" stroke-width="3"/><circle r="20" fill="#e6f2f3"/></g>
+<g id="personShape"><circle cy="-18" r="15" fill="#f3c899"/><path d="M-14,-23 Q-11,-40 4,-34 Q16,-34 16,-18 Q3,-26 -14,-23" fill="#635a4d"/><path d="M-24,33 Q-25,2 0,2 Q25,2 24,33Z" fill="#739c85" stroke="#4d7c66" stroke-width="1.2"/><path d="M-8,4 L0,15 L8,4" fill="#f8f1d7"/><circle cx="-5" cy="-16" r="1.5" fill="#635a4d"/><circle cx="5" cy="-16" r="1.5" fill="#635a4d"/></g>`;
+$('#defs').innerHTML=defs;
+const chants=['一九得九','二九十八','三九二十七','四九三十六','五九四十五','六九五十四','七九六十三','八九七十二','九九八十一'];
+const chinese=['一','二','三','四','五','六','七','八','九'];
+const lessons=[[],[],[]];
+function add(section,id,title,label,scene,note='',sequence=null){lessons[section].push({id,title,label,scene,note,sequence});}
+function findStep(id){const s=lessons.flat().find(s=>s.id===id);if(!s)throw Error('找不到步骤 '+id);return s;}
+function support(id,label,title,scene,note,sequence=null){findStep(id).support={label,title,scene,note,sequence};}
+function bindProblem(section,first,last,text,label='原题'){
+ const a=lessons[section],start=a.findIndex(s=>s.id===first),end=a.findIndex(s=>s.id===last);
+ if(start<0||end<start)throw Error('原题范围错误 '+first);
+ for(let i=start;i<=end;i++)a[i].problem={id:first,text,opening:i===start,label};
+}
+function quantityTable(filled,active=0,known={}){
+ const x=50,y=19,w=910,h=105,label=155,cw=(w-label)/9;
+ let s=R(x,y,w,h,'#fffaf0','#9cbfca',10)+R(x,y,label,h,'#dfedf0','',10)+L(x,y+52,x+w,y+52,'#99bdc8');
+ s+=T(x+label/2,y+35,'行数',26)+T(x+label/2,y+87,'苹果个数',25);
+ for(let n=1;n<=9;n++){
+  const xx=x+label+(n-1)*cw;
+  if(active===n)s+=R(xx+2,y+2,cw-4,h-4,'#f1d58d55','',3);
+  const value=Object.prototype.hasOwnProperty.call(known,n)?known[n]:n<=filled?n*9:n===active?'?':'';
+  s+=L(xx,y,xx,y+h,'#99bdc8',1)+T(xx+cw/2,y+35,n,29)+T(xx+cw/2,y+88,value,31,n===active?'groups':'');
+ }
+ return s;
+}
+function appleRows(n,filled=n-1,board='',options={}){
+ const s=base();s.decor=paper();s.annotation=quantityTable(filled,options.tableActive??n,options.known||{})+board;
+ const gapY=57,startY=165,scale=.80;
+ const gapX=90,startX=140;
+ for(let r=0;r<n;r++){
+  const y=startY+r*gapY;
+  const highlighted=r===n-1&&n>1&&options.highlightLast!==false;
+  s.decor+=R(startX-49,y-32,818,56,highlighted?'#f8e2af':'#fff7e4',highlighted?'#c89843':'#deccb0',10);
+  for(let c=0;c<9;c++)s.objects.push(obj('a'+(r*9+c),'apple',startX+c*gapX,y,scale));
+ }
+ s.annotation+=T(506,681,options.caption||`每行9个 · 现在${n}行${n>1&&options.highlightLast!==false?' · 黄色是新增的一行':''}`,27,'muted');
+ s.meta={kind:'apples',expectedTotal:n*9,original:n*9,rows:n,tableActive:options.tableActive??n,known:options.known||{}};
+ s.description=`${n}行苹果，每行9个。${options.caption||'当前表格答案在学生回答后填写。'}`;
+ return s;
+}
+function board(title,expression='',lower='',hint=''){
+ const s=base();s.decor=paper(190,78,1220,550);s.annotation=T(800,147,title,29,'muted')+T(800,305,expression,86)+T(800,449,lower,48,'groups')+T(800,567,hint,33,'muted');s.description=[title,expression,lower,hint].filter(Boolean).join('。');return s;
+}
+function overview(reveal=false){
+ const s=base();s.annotation=quantityTable(9)+T(800,166,'9的乘法口诀',32,'muted');
+ s.decor=paper(60,185,1480,426);
+ chants.forEach((chant,i)=>s.annotation+=T(325+Math.floor(i/3)*475,270+(i%3)*125,chant,51));
+ if(reveal)s.annotation+=T(800,671,'多1个9，积多9；少1个9，积少9。',32,'groups');
+ s.description='完整九句口诀与表格。'+(reveal?'相邻口诀的积相差9。':'学生读口诀，观察相邻结果。');return s;
+}
+// 第一环节：少量示范后放手编口诀。
+add(0,'apple-one-q','每行几个？一行就是1个几？','看清每行9个',()=>appleRows(1,0,T(1286,282,'每行几个？',46)+T(1286,437,'这是1个几？',44)), '教材第48页例4。只观察当前一行，逐个数清9。');
+add(0,'apple-one-a','1个9是9，一九得九。','核对第一句口诀',()=>appleRows(1,1,T(1286,278,'1个9',82,'groups')+T(1286,423,'一九得九',54)+T(1286,552,'9 × 1 ＝ 9',47)), '学生回答后填表9，核对第一句。');
+bindProblem(0,'apple-one-q','apple-one-a','每行9个苹果，1行有多少个？怎样编口诀？');
+add(0,'apple-two-q','现在是几个9？怎样算一共有多少个？','独立想2个9',()=>appleRows(2,1,T(1286,281,'现在是几个9？',39)+T(1286,437,'怎样算总数？',45)), '先让学生说出9加9，不先给计算方法。');
+support('apple-two-q','看加法','2个9相加，怎样算？',()=>appleRows(2,1,T(1286,284,'9 ＋ 9 ＝ □',58)+T(1286,446,'这是2个9。',43)), '学生有困难时再给连加提示，18仍留空。');
+add(0,'apple-two-add','9加9是18。怎样写乘法、编口诀？','连加得到18',()=>appleRows(2,2,T(1286,283,'9 ＋ 9 ＝ 18',55)+T(1286,438,'怎样写乘法？',39)+T(1286,549,'怎样编口诀？',36)), '沿用前三课的说图习惯：每组个数×组数。');
+add(0,'apple-two-a','9×2表示2个9，二九十八。','核对乘法与口诀',()=>appleRows(2,2,T(1286,274,'9 × 2 ＝ 18',57)+T(1286,408,'二九十八',54)+T(1286,548,'每行9个，有2行。',29,'muted')), '后面几句逐步让学生独立填表。');
+bindProblem(0,'apple-two-q','apple-two-a','每行9个，2行一共有多少个？怎样写乘法、编口诀？');
+add(0,'plus-foundation-q','刚才多了1行，就是多1个9。总数怎样变？','先铺垫 · 多1个9',()=>appleRows(2,2,T(1286,264,'1个9 → 2个9',49,'groups')+T(1286,398,'多1行，就是多1个9。',31)+T(1286,537,'总数怎样变？',42)), '回指刚才新增的一行。先让学生说一行有9个，增加一行就增加9个，不从抽象口诀开始。');
+add(0,'plus-foundation-a','多1个9，总数就加9。下一句口诀的积也加9。','说清规律 · 加9',()=>appleRows(2,2,T(1286,257,'多1个9，就加9',42,'groups')+T(1286,398,'9 ＋ 9 ＝ 18',53)+T(1286,537,'再多1个9呢？',37)), '这一步为后面逐行编口诀铺垫。计算方法作为默认教学步骤呈现，后续每题的提示仍可选。');
+bindProblem(0,'plus-foundation-q','plus-foundation-a','每行9个苹果，多1行就是多1个9，总数会怎样变？','加9的铺垫');
+for(let n=3;n<=9;n++){
+ add(0,`apple-${n}-q`,n===6?'已知五九四十五，六九是多少？你怎样想？':`现在是${n}个9，请填表、编口诀。`,n===6?'借前一句推想六九':'学生填表编口诀',()=>appleRows(n,n-1,T(1286,269,n===6?'已知：五九四十五':`${n}个9`,n===6?36:72,'groups')+T(1286,415,`${chinese[n-1]}九（　　）`,51)+T(1286,553,'你是怎样想的？',33)), '先听学生回答，当前总数和口诀结果不提前显示。');
+ support(`apple-${n}-q`,'给一点提示','比前一次多了几个9？',()=>appleRows(n,n-1,T(1286,265,'多1行，就是多1个9',31,'groups')+T(1286,409,`${(n-1)*9} ＋ 9 ＝ □`,54)+T(1286,554,'算好后，再编口诀。',31)), '答不清楚再突出新增的一行。不是每一句都强制使用提示。');
+ add(0,`apple-${n}-a`,`${n}个9是${n*9}，${chants[n-1]}。`,'核对总数与口诀',()=>appleRows(n,n,T(1286,278,`${n}个9是${n*9}`,54,'groups')+T(1286,417,chants[n-1],49)+T(1286,554,`9 × ${n} ＝ ${n*9}`,47)), '表中填入学生算出的结果。');
+ bindProblem(0,`apple-${n}-q`,`apple-${n}-a`,n===6?'已知五九四十五，六个9是多少？你是怎样想的？':`每行9个，${n}行有多少个？试着编出对应口诀。`);
+}
+const reverseTable={tableActive:5,known:{6:54},highlightLast:false};
+add(0,'minus-foundation-q','从6行中拿走1行，就是少1个9。总数怎样变？','先铺垫 · 少1个9',()=>appleRows(6,4,T(1286,259,'已知：6个9是54',39,'groups')+T(1286,403,'拿走这一行9个。',38)+T(1286,546,'总数怎样变？',42),{...reverseTable,highlightLast:true,caption:'每行9个 · 黄色这一行准备拿走'}), '54是给定的已知总数，表中保留54。先指一整行，再说拿走的是一个9，不把少一行说成少一个苹果。');
+add(0,'minus-foundation-a','少1个9，总数就减9。往前推口诀也减9。','说清规律 · 减9',()=>appleRows(5,4,T(1286,269,'少1个9，就减9',42,'groups')+T(1286,420,'下一步用这条规律。',31)+T(1286,549,'算好后，再说口诀。',31),{...reverseTable,caption:'从6行拿走1行 · 现在剩5行'}), '默认先演示拿走一行，再概括减9。只说明方法，五九的结果留给下一题由学生说。');
+bindProblem(0,'minus-foundation-q','minus-foundation-a','每行9个苹果，拿走1行就是少1个9，总数会怎样变？','减9的铺垫');
+add(0,'backward-q','已知六九五十四，五九是多少？用刚才的规律想一想。','应用规律 · 借后一句往前推',()=>appleRows(5,4,T(1286,257,'已知：六九五十四',37)+T(1286,405,'五九（　　）',57)+T(1286,552,'比6个9少了几个9？',31),{...reverseTable,caption:'现在是5个9 · 比6个9少1个9'}), '先完成少1个9就减9的铺垫，再迁移到六九推五九。表格第五格为问号，第六格给54，已知与未知对应正确。');
+support('backward-q','看减法提示','少1个9，用哪个算式推想？',()=>appleRows(5,4,T(1286,262,'少1个9，就减9',39,'groups')+T(1286,410,'54 − 9 ＝ □',57),{...reverseTable,caption:'从6个9里去掉1个9 · 还剩5个9'}), '学生有困难时展开减法式，结果仍不提前揭示。');
+add(0,'backward-a','54少9是45，五九四十五。','核对减9推算',()=>appleRows(5,5,T(1286,281,'54 − 9 ＝ 45',57)+T(1286,430,'五九四十五',51),{...reverseTable,caption:'6个9去掉1个9 · 剩5个9'}), '回顾少1个9就减9，核对第五格45和已知的第六格54。');
+bindProblem(0,'backward-q','backward-a','已知六九五十四，五九是多少？可以怎样推想？');
+add(0,'overview-q','读一读，相邻两句口诀的积相差多少？','读口诀找规律',()=>overview(), '按顺序读九句，问向后、向前怎样推想。');
+add(0,'overview-a','多1个9，积多9；少1个9，积少9。','核对相邻口诀规律',()=>overview(true));
+bindProblem(0,'overview-q','overview-a','读9的乘法口诀，怎样根据相邻口诀推想结果？','规律');
+add(0,'extra-nine-q','3个9再加1个9，现在是几个9？','迁移一下 · 同样的9增加一份',()=>appleRows(3,3,T(1286,265,'3 × 9 ＋ 9',57)+T(1286,404,'选一选，是几个9？',32)+T(1286,489,'A．4个9',43)+T(1286,565,'B．5个9',43),{highlightLast:false,caption:'原来有3个9 · 还要再加1个9'}), '和3×5＋5判断几个5同一种结构。原来的三行都不标成新增；先让学生口答，不先摆出第四行，避免图先给答案。');
+add(0,'extra-nine-a','3个9加1个9，是4个9。','核对 · 多一份，份数多1',()=>appleRows(4,4,T(1286,257,'3个9 ＋ 1个9',44)+T(1286,394,'是4个9',56,'groups')+T(1286,530,'3 × 9 ＋ 9 ＝ 4 × 9',33),{caption:'黄色新加1个9 · 现在有4个9'}), '新增的一行仍是完整的9个。强调多一个9，使几个9的个数多1，而不是多9份。');
+bindProblem(0,'extra-nine-q','extra-nine-a','3×9＋9，是4个9还是5个9？请说出理由。','迁移练习');
+// 两只手从学生自己的视角编号，用颜色区分弯下手指的两边。
+function hands(k=0,stage=false){
+ const s=base(),done=stage===true,counted=done||stage==='count';
+ const xs=[140,235,330,425,570,850,995,1090,1185,1280],tops=[294,224,195,227,344,344,227,195,224,294];
+ const palm=(x,flip=false)=>`<g transform="translate(${x} 0)${flip?' translate(470 0) scale(-1 1)':''}"><path d="M20 405 Q5 390 4 429 L4 481 Q4 542 55 553 L142 572 L142 607 L321 607 L321 567 Q385 550 418 516 Q453 482 470 441 L470 408 Q445 390 420 408 L387 431 L387 397 L20 397Z" fill="#f5d7b4" stroke="#bd9970" stroke-width="2"/><path d="M143 565 Q217 577 320 561" fill="none" stroke="#c6a47f" stroke-width="2"/></g>`;
+ s.decor=palm(100)+palm(840,true);
+ for(let i=0;i<10;i++){
+  const bent=i+1===k,y=bent?397:tops[i],h=480-y;
+  const color=!k?'#f8dfbf':bent?'#d7af83':i+1<k?'#d8eef3':'#fbe3c7';
+  const edge=!k?'#bd9970':bent?'#a66c3c':i+1<k?'#277d9c':'#ba652f';
+  s.decor+=R(xs[i]-32,y,64,h,color,edge,31)+L(xs[i]-18,bent?430:365,xs[i]+18,bent?430:365,edge,2);
+  s.annotation+=T(xs[i],bent?324:y-20,i+1,29,bent?'groups':'muted');
+  if(bent)s.annotation+=T(xs[i],370,'↓',45,'groups')+T(xs[i],510,'弯下',26,'groups');
+ }
+ if(!k){
+  s.annotation+=T(800,78,'两手手心朝向自己，十指伸开。',43)+T(800,143,'从自己的左边开始，依次编号1—10。',34,'muted')+T(800,661,'算几个9，就弯下第几根手指。弯下的一根不算。',33,'groups');
+ }else{
+  s.annotation+=T(800,78,done?`${k} × 9 ＝ ${k*9} · ${chants[k-1]}`:`${k} × 9 ＝ □`,49,'groups');
+  s.annotation+=T(800,141,counted?`左边${k-1}根记作${k-1}个十，右边${10-k}根记作${10-k}个一。`:`弯下第${k}根；数一数它左边、右边各有几根。`,33);
+  s.annotation+=T(360,651,counted?`左边${k-1}根：${k-1}个十`:'左边几根？',34,'each')+T(1160,651,counted?`右边${10-k}根：${10-k}个一`:'右边几根？',34,'groups');
+  s.annotation+=T(800,691,done?`${(k-1)*10} ＋ ${10-k} ＝ ${k*9}`:counted?'合起来是多少？':'弯下的手指不计数。',29,done?'groups':'muted');
+ }
+ s.description=`两只手从自己的左边编号。${k?`弯下第${k}根，左边${k-1}根，右边${10-k}根。`:''}`;
+ s.meta={kind:'hands',expectedTotal:0,finger:k,stage:done?'answer':stage==='count'?'count':'question',left:k?k-1:null,right:k?10-k:null};return s;
+}
+add(0,'finger-intro','用两只手帮助记忆：先认清编号。','手指助记 · 准备',()=>hands(), '两手手心朝向自己，小指在外、拇指在中间。从自己最左边的小指开始数，两个拇指分别是第5、6根。面对学生示范时注意镜像。底部“手指助记”可直接跳到这里。');
+findStep('finger-intro').problem={id:'finger-intro',text:'十指从自己的左边开始编号，算几个9，就弯下第几根。',opening:true,label:'手指助记'};
+for(const k of [4,7]){
+ add(0,`finger-${k}-q`,`算${k}个9，弯下第${k}根。两边各有几根？`,'手指助记 · 弯下并数两边',()=>hands(k), '弯下的一根不算。蓝色在弯下手指的左边，橙色在右边；跨越两只手也要继续数。');
+ add(0,`finger-${k}-count`,'左边的根数表示几个十，右边表示几个一。','手指助记 · 解释十与一',()=>hands(k,'count'), `左边${k-1}根，记作${k-1}个十，就是${(k-1)*10}；右边${10-k}根，记作${10-k}个一。不要把两侧根数直接相加。`);
+ add(0,`finger-${k}-a`,`${(k-1)*10}加${10-k}是${k*9}，${chants[k-1]}。`,'手指助记 · 合成结果',()=>hands(k,true), '弯下一根后剩9根。依次往右弯，左边增加1根，右边减少1根；读出的数就增加10再减少1，也就是增加9。帮助记忆即可，不再展开证明。');
+ bindProblem(0,`finger-${k}-q`,`finger-${k}-a`,`用手指帮助记忆：${k}个9是多少？`,'手指助记');
+}
+// 第二环节：同一批27个圆片，从乘法到两种求商。
+function array27(mode='whole',text=''){
+ const s=base();s.decor=paper();s.annotation=T(1288,176,'教材“试一试”',28,'muted')+text;
+ for(let r=0;r<3;r++)if(mode==='rows')s.decor+=R(77,215+r*147,877,103,'#f4e3bd30','#bd955f',16);
+ for(let c=0;c<9;c++)if(mode==='cols')s.decor+=R(77+c*98,215,81,397,'#b9d9df28','#78afbd',14);
+ for(let i=0;i<27;i++)s.objects.push(obj('c'+i,'circle',118+(i%9)*98,265+Math.floor(i/9)*147,1.13));
+ s.meta={kind:'circle',expectedTotal:27,mode};s.description='同一批27个圆片，3行9列。'+(mode==='rows'?'突出3行，每行9个。':mode==='cols'?'突出9列，每列3个。':'尚未显示分组标记与算式。');return s;
+}
+for(const [mode,a,b,phrase] of [['rows',9,3,'3个9'],['cols',3,9,'9个3']]){
+ add(1,`mul-${mode}-q`,mode==='rows'?'横着看，有几行？每行几个？怎样列式？':'竖着看，有几列？每列几个？怎样列式？','先观察，独立列式',()=>array27('whole',T(1288,287,mode==='rows'?'横着看':'竖着看',53)+T(1288,432,'请你列式，说口诀。',33)), '不提前给算式中的数字。沿用每组个数×组数的约定。');
+ add(1,`mul-${mode}-equation`,`${phrase}，${a}×${b}等于多少？`,'核对列式，结果留空',()=>array27(mode,T(1288,283,phrase,75,'groups')+T(1288,431,`${a} × ${b} ＝ □`,61)), '学生先口答结果，并说三九二十七。');
+ add(1,`mul-${mode}-a`,`${a}×${b}＝27，都用三九二十七。`,'核对乘法与口诀',()=>array27(mode,T(1288,284,`${a} × ${b} ＝ 27`,60)+T(1288,441,'三九二十七',48,'groups')));
+ bindProblem(1,`mul-${mode}-q`,`mul-${mode}-a`,'看图填一填：根据圆片图写出乘法算式。','教材第48页 · 试一试');
+}
+function distribute(mode,n=0,text='',kind='circle',total=27,groups=3,each=9){
+ const s=base(),avg=mode==='average',moved=avg?n*groups:n*each;
+ s.decor=tray(45,120,493,510);s.annotation=T(292,75,`一共${total}${kind==='person'?'人':'个'} · 剩${total-moved}${kind==='person'?'人':'个'}`,30);
+ const count=avg?groups:n,cols=groups===6?3:1,centers=[];
+ for(let g=0;g<groups;g++)centers.push(groups===6?{x:735+(g%3)*325,y:246+Math.floor(g/3)*292}:{x:1030,y:230+g*153});
+ for(let g=0;g<count;g++){
+  const c=centers[g],w=groups===6?285:878,h=groups===6?221:112;
+  s.decor+=R(c.x-w/2,c.y-h/2,w,h,'#fff9e9','#bda77c',18);
+  s.annotation+=T(groups===6?c.x:c.x-w/2+35,groups===6?c.y+139:c.y+9,groups===6?`第${g+1}组`:g+1,25,'groups');
+ }
+ for(let i=0;i<total;i++){
+  let x=kind==='person'?98+(i%6)*77:102+(i%5)*86,y=kind==='person'?177+Math.floor(i/6)*49:190+Math.floor(i/5)*73,scale=kind==='person'?.55:.85;
+  if(i<moved){const g=avg?i%groups:Math.floor(i/each),pos=avg?Math.floor(i/groups):i%each,c=centers[g];
+   if(groups===6){x=c.x+(pos%3-1)*81;y=c.y+(Math.floor(pos/3)-1)*67;scale=.72;}
+   else{x=700+pos*83;y=c.y;scale=.97;}
+  }
+  s.objects.push(obj((kind==='person'?'p':'c')+i,kind,x,y,scale));
+ }
+ if(text){if(moved===total)s.decor+=paper(55,153,477,451);s.annotation+=text;}
+ s.meta={kind,expectedTotal:total,mode,n,moved,remaining:total-moved,groups:avg?groups:n,each:avg?n:each};
+ s.description=`同一批${total}${kind==='person'?'个小朋友':'个圆片'}。${avg?`平均分成${groups}份，已经分${n}轮，每份${n}个。`:`每${each}个一份，已经分出${n}份。`}还剩${total-moved}个。`;return s;
+}
+function equation(x,y,a,b,c,unit=''){
+ if(!unit)return T(x,y,`${a} ÷ ${b} ＝ ${c}`,57);
+ return T(x-174,y,a,49)+T(x-101,y,'÷',49)+T(x-29,y,b,49)+T(x+40,y,'＝',49)+T(x+105,y,c,49)+T(x+139,y,'（',38)+T(x+169,y,unit,32,'groups')+T(x+207,y,'）',38);
+}
+function choices(options,xs=[160,417],y=509){
+ return options.map((unit,i)=>`<g class="unit-choice" data-unit-choice="${unit}" tabindex="0" role="button" aria-label="选择单位${unit}">${R(xs[i]-82,y-40,164,66,'#fffaf0','#bda77c',12)}${T(xs[i],y+4,unit,38,'groups')}</g>`).join('');
+}
+function focus(data,type){
+ let m='';const box=(x,y,w,h)=>R(x,y,w,h,'#f5db6922','#c68b27',16);
+ if(type==='circle-groups')for(let g=0;g<3;g++)m+=box(591,174+g*153,878,112);
+ if(type==='circle-average')for(let pos=0;pos<9;pos++)m+=`<circle cx="${700+pos*83}" cy="230" r="34" fill="none" stroke="#277d9c" stroke-width="3"/>`;
+ if(type==='person-groups')for(let g=0;g<6;g++)m+=box(593+(g%3)*325,135+Math.floor(g/3)*292,285,221);
+ if(type==='person-average')for(let pos=0;pos<9;pos++)m+=`<circle cx="${735+(pos%3-1)*81}" cy="${246+(Math.floor(pos/3)-1)*67}" r="28" fill="none" stroke="#277d9c" stroke-width="3"/>`;
+ data.decor+=m;return data;
+}
+const unitConfigs={
+ 'circle-groups':{kind:'circle',mode:'groups',total:27,divisor:9,answer:3,unit:'份',options:['份','个'],groups:3,each:9,sentence:'答：可以分成3份。'},
+ 'circle-average':{kind:'circle',mode:'average',total:27,divisor:3,answer:9,unit:'个',options:['份','个'],groups:3,each:9,sentence:'答：平均每份9个。'},
+ 'person-average':{kind:'person',mode:'average',total:54,divisor:6,answer:9,unit:'人',options:['人','组'],groups:6,each:9,sentence:'答：每组有9人。'},
+ 'person-groups':{kind:'person',mode:'groups',total:54,divisor:9,answer:6,unit:'组',options:['人','组'],groups:6,each:9,sentence:'答：分成了6组。'}
+};
+function meaningText(type){return {'circle-groups':'3表示分成了3份。','circle-average':'9表示每份有9个圆片。','person-average':'9表示每组有9人。','person-groups':'6表示分成了6组。'}[type];}
+function workScene(type,content){
+ const c=unitConfigs[type],s=distribute('groups',0,'',c.kind,c.total,c.groups,c.each);
+ s.decor+=paper(591,153,954,451);s.annotation+=content;
+ s.description=`${c.total}${c.kind==='person'?'个小朋友':'个圆片'}暂时集中放在一起。先根据题目独立列式，困难时再展开分配提示。`;
+ return s;
+}
+function listScene(type,independent=false){
+ const c=unitConfigs[type],n=c.mode==='average'?c.each:c.groups,x=independent?1068:291;
+ const content=T(x,325,'请你列式。',44)+T(x,435,'说说为什么这样列。',30);
+ return independent?workScene(type,content):distribute(c.mode,n,content,c.kind,c.total,c.groups,c.each);
+}
+function equationScene(type,independent=false){
+ const c=unitConfigs[type],n=c.mode==='average'?c.each:c.groups,x=independent?1068:291;
+ const totalLabel=c.kind==='person'?'小朋友总人数':'圆片总个数';
+ const divisorLabel=c.mode==='average'?(c.kind==='person'?'已知的组数':'已知的份数'):(c.kind==='person'?'已知的每组人数':'已知的每份个数');
+ const content=equation(x,267,c.total,c.divisor,'□')+T(x,357,`${c.total}：${totalLabel}`,28)+T(x,419,`${c.divisor}：${divisorLabel}`,28,'groups')+T(x,531,'用哪一句口诀求商？',30);
+ return independent?workScene(type,content):distribute(c.mode,n,content,c.kind,c.total,c.groups,c.each);
+}
+function calculationScene(type){
+ const c=unitConfigs[type],n=c.mode==='average'?c.each:c.groups;
+ return distribute(c.mode,n,equation(291,281,c.total,c.divisor,c.answer)+T(291,438,c.total===27?'三九二十七':'六九五十四',36,'groups'),c.kind,c.total,c.groups,c.each);
+}
+function meaningScene(type,done=false){
+ const c=unitConfigs[type],n=c.mode==='average'?c.each:c.groups;
+ const meaning={
+  'circle-groups':['3表示分成了3份。','数的是完整的份。'],
+  'circle-average':['9表示每份有9个圆片。','数的是一份里的圆片。'],
+  'person-average':['9表示每组有9人。','数的是一组里的小朋友。'],
+  'person-groups':['6表示分成了6组。','数的是完整的组。']
+ }[type];
+ const rest=done?T(291,401,meaning[0],30,'groups')+T(291,478,meaning[1],29):T(291,401,`这个${c.answer}表示什么？`,34)+T(291,478,'请在图中指一指。',30);
+ const s=distribute(c.mode,n,equation(291,281,c.total,c.divisor,c.answer)+rest,c.kind,c.total,c.groups,c.each);
+ return done?focus(s,type):s;
+}
+function unitScene(type,done=false){
+ const c=unitConfigs[type],n=c.mode==='average'?c.each:c.groups;
+ const eq=equation(291,267,c.total,c.divisor,c.answer,done?c.unit:'　');
+ const rest=done?T(291,370,`单位：${c.unit}`,36,'groups')+T(291,469,'请你完整回答这道题。',29):T(291,347,meaningText(type),29,'groups')+T(291,419,`商${c.answer}的单位是什么？`,31)+choices(c.options)+`<text id="unitFeedback" x="291" y="591" text-anchor="middle" font-size="22" class="muted"></text>`;
+ const s=distribute(c.mode,n,eq+rest,c.kind,c.total,c.groups,c.each);
+ s.unitTask={phase:done?'answer':'question',unit:c.unit,options:c.options,hint:c.unit==='份'||c.unit==='组'?'指一整份或一整组，再看看答案数的是什么。':'指一份里面的物体，再看看答案数的是什么。'};
+ focus(s,type);
+ if(done){
+  const before=s.annotation.replace(eq,equation(291,267,c.total,c.divisor,c.answer,'　')).replace(rest,'');
+  s.unitInitialAnnotation=before;s.unitFlight={from:{x:[160,417][c.options.indexOf(c.unit)],y:513},to:{x:460,y:267},unit:c.unit,cls:'groups'};
+ }
+ return s;
+}
+function answerScene(type){
+ const c=unitConfigs[type],n=c.mode==='average'?c.each:c.groups;
+ return distribute(c.mode,n,equation(291,267,c.total,c.divisor,c.answer,c.unit)+T(291,439,c.sentence,31,'groups'),c.kind,c.total,c.groups,c.each);
+}
+for(const mode of ['groups','average']){
+ const p='div-'+mode,avg=mode==='average',b=avg?3:9,c=avg?9:3,independent=avg;
+ const problem=avg?'27个圆片，平均分成3份，每份几个？':'27个圆片，每9个一份，可以分成几份？';
+ add(1,p+'-q',avg?'题目已经告诉了几份？要求什么？':'题目已经告诉了每份几个？要求什么？','先读条件',()=>distribute(mode,0,T(1030,78,'先说已知条件。',35)+T(1030,132,'要找哪个数量？',34)), '提示位于图的上方，和左边圆片分开。每9个一份时不预先画3个框；平均分3份时先画3个空区域。');
+ if(!independent){
+  add(1,p+'-1','取9个圆片，形成一份。','看清一次分配',()=>distribute(mode,1), '总数始终保留，物体不增不减。');
+  add(1,p+'-finish','继续每9个一份，一共几份？','分到最后，先观察',()=>distribute(mode,3), '分到最后只完成分图，不跳到算式或答案。',()=>[distribute(mode,2),distribute(mode,3)]);
+  findStep(p+'-1').jumpTo=p+'-finish';
+ }
+ add(1,p+'-list','根据已知条件，怎样列式？','学生独立列式',()=>listScene('circle-'+mode,independent), '第二题先让学生独立列式，分图提示按需展开。此时不提问商的含义或单位。');
+ add(1,p+'-equation','核对已知数量与算式，再用口诀求商。','核对列式理由，商留空',()=>equationScene('circle-'+mode,independent), `27是总个数，${b}是${avg?'题中已知的份数':'题中已知的每份个数'}。未知的商先留空，听学生说三九二十七。`);
+ if(independent)support(p+'-equation','再看平均分','先确定3份，再让每份同样多。',()=>distribute(mode,9),'学生列式困难时，再演示平均分；算式与商另行核对。',()=>Array.from({length:10},(_,i)=>distribute(mode,i)));
+ else support(p+'-equation','看乘法提示',`${b}乘几等于27？`,()=>distribute(mode,3,equation(291,281,27,b,'□')+T(291,434,`${b} × □ ＝ 27`,47)), '需要时给提示，商与完整口诀仍留给学生回答。');
+ add(1,p+'-calculate',`27÷${b}＝${c}，先核对计算结果。`,'核对商',()=>calculationScene('circle-'+mode), '显示算出的商，暂不加单位和答句。下一步才提问这个商表示什么。');
+ add(1,p+'-meaning-q',`算出的${c}表示什么？请指图说明。`,'商的含义 · 先口答',()=>meaningScene('circle-'+mode), '完整算式与商已经显示。先指所数的对象，不提前给单位选项。');
+ add(1,p+'-unit',`先核对${c}的含义，再确定单位。`,'核对含义，确定单位',()=>unitScene('circle-'+mode), '上一步先听学生解释商；这一步指图核对解释，再问单位，减少重复翻页。');
+ add(1,p+'-unit-a','单位已标好，怎样完整回答这道题？','标单位，先口答答句',()=>unitScene('circle-'+mode,true), '先标单位，再让学生口答；下一步才显示答句。');
+ add(1,p+'-a','核对完整答句。','核对答句',()=>answerScene('circle-'+mode), '此时是核对答案，不再用提问标题配已揭示的答句。');
+ bindProblem(1,p+'-q',p+'-a',problem,'圆片分法');
+}
+function comparison(done=false){
+ const s=base();s.decor=paper(55,35,715,290)+paper(830,35,715,290);
+ s.annotation=T(412,96,'每9个一份，求分成几份',33)+T(1187,96,'平均分成3份，求每份几个',32)+T(412,188,`27 ÷ 9 ＝ 3${done?'（份）':'（　）'}`,53)+T(1187,188,`27 ÷ 3 ＝ 9${done?'（个）':'（　）'}`,53);
+ s.annotation+=T(412,278,done?'3数的是全部3份。':'请指出：3数的是什么？',31,'groups')+T(1187,278,done?'9数的是一份里的9个。':'请指出：9数的是什么？',31,'each');
+ for(let g=0;g<3;g++){s.decor+=R(280,376+g*90,1040,77,'#fff9e9','#bda77c',14);for(let c=0;c<9;c++)s.objects.push(obj('c'+(g*9+c),'circle',344+c*114,416+g*90,.8));}
+ if(done){s.decor+=R(280,376,1040,257,'#f4d86d15','#c68b27',15);for(let c=0;c<9;c++)s.decor+=`<circle cx="${344+c*114}" cy="416" r="29" fill="none" stroke="#277d9c" stroke-width="3"/>`;}
+ s.meta={kind:'circle',expectedTotal:27};s.description='同一批27个圆片，3份每份9个。第一题的商数完整的份，第二题数一份里的圆片。';return s;
+}
+add(1,'compare-q','同一幅图，3和9分别数的是什么？','同图指对象',()=>comparison(), '保留两道完整条件与同一个分好结果。先指图，再核对单位，不以抽象分类表代替理解。');
+add(1,'compare-a','3数的是3份，9数的是一份里的9个圆片。','核对两个商的含义',()=>comparison(true));
+bindProblem(1,'compare-q','compare-a','两道题最后分得一样，开始知道的条件、要求的数量有什么不同？','对照');
+function four(done=false){const s=board('教材“试一试” · 都用哪一句口诀？');s.annotation=T(800,112,done?'三九二十七':'都用哪句口诀？',48,'groups');[['9 × 3',27],['3 × 9',27],['27 ÷ 9',3],['27 ÷ 3',9]].forEach(([e,a],i)=>s.annotation+=T(i<2?430:1170,300+(i%2)*180,`${e} ＝ ${done?a:'□'}`,67));s.description='两道乘法、两道除法使用三九二十七。';return s;}
+// 第三环节：教材第2题、数九、两道独立应用及回顾。
+function practiceFour(n,done=false){
+ const s=base();s.decor=paper(125,45,1350,586);s.annotation=T(800,112,done?chants[n-1]:`${chinese[n-1]}九（　　）`,53,'groups');
+ [[`${n} × 9`,n*9],[`9 × ${n}`,n*9],[`${n*9} ÷ ${n}`,9],[`${n*9} ÷ 9`,n]].forEach(([e,a],i)=>s.annotation+=T(i<2?425:1185,295+(i%2)*190,`${e} ＝ ${done?a:'□'}`,65));
+ s.description=`教材第49页第2题，${chinese[n-1]}九口诀和四道乘除法。${done?'核对答案。':'先独立计算，答案未揭示。'}`;return s;
+}
+for(const n of [4,5,8]){
+ add(2,`practice-${n}-q`,n===4?'先补口诀，再算这四道题。':'这组题，请你独立完成。','想想做做2 · 独立计算',()=>practiceFour(n), '四九一组核对方法，五九、八九独立完成，不重复完整数形探究。');
+ add(2,`practice-${n}-a`,`四道题都用${chants[n-1]}。`,'核对口诀和结果',()=>practiceFour(n,true), n===5?'短问45÷5为什么也能用五九四十五：5乘9得45，未知的9是商。不再增加45个物体的完整分配。':'根据已知除数和被除数找对应口诀。');
+ bindProblem(2,`practice-${n}-q`,`practice-${n}-a`,'补出口诀，计算乘法和除法，说说用了哪句口诀。','教材第49页 · 第2题');
+ if(n===5)addFortyFiveContrast();
+}
+function fortyFiveScene(stage){
+ const s=base(),question=stage==='list',meaning=stage==='meaning',units=stage==='unit',answer=stage==='answer';
+ const x1=420,x2=1180;
+ s.decor=paper(50,45,720,570)+paper(830,45,720,570);
+ s.annotation=T(x1,108,'45个苹果，每9个装一盘。',29)+T(x1,169,'可以装几盘？',34)+T(x2,108,'45个苹果，平均装在5个盘里。',27)+T(x2,169,'每盘几个？',34);
+ if(question){s.annotation+=T(x1,331,'请你列式、计算。',38)+T(x2,331,'请你列式、计算。',38);}
+ else{
+  const withUnits=stage==='reply'||answer;
+  s.annotation+=T(x1,294,`45 ÷ 9 ＝ 5${withUnits?'（盘）':units?'（　）':''}`,49)+T(x2,294,`45 ÷ 5 ＝ 9${withUnits?'（个）':units?'（　）':''}`,49);
+  if(stage==='calculate')s.annotation+=T(x1,423,'9 × 5 ＝ 45',38)+T(x2,423,'5 × 9 ＝ 45',38)+T(800,675,'两道计算都用“五九四十五”。',30,'groups');
+  if(meaning)s.annotation+=T(x1,431,'算出的5表示什么？',34)+T(x2,431,'算出的9表示什么？',34);
+  if(units||withUnits){
+   s.annotation+=T(x1,398,'5表示装了5盘。',32,'groups')+T(x2,398,'9表示每盘有9个。',32,'each');
+   s.annotation+=T(x1,507,answer?'答：可以装5盘。':units?'应该写什么单位？':'请完整回答第一题。',30)+T(x2,507,answer?'答：每盘9个。':units?'应该写什么单位？':'请完整回答第二题。',30);
+  }
+ }
+ s.description='45个苹果的两道题：已知每盘9个，求盘数；已知平均装5盘，求每盘个数。'+(question?'先独立列式与计算。':meaning?'算式和商已经显示，再解释商的含义。':units?'核对商的含义，再填单位。':answer?'核对完整答句。':'');
+ return s;
+}
+function addFortyFiveContrast(){
+ add(2,'forty-five-list','同样是45个苹果，两题分别怎样列式？','45的对照 · 先独立列式',()=>fortyFiveScene('list'),'这是一组简短迁移题，不再逐个分配45个物体。先分别列式、计算。');
+ add(2,'forty-five-calculate','核对两道算式和计算结果。','45的对照 · 核对算式',()=>fortyFiveScene('calculate'),'9是第一题已知的每盘个数；5是第二题已知的盘数。都用五九四十五计算。');
+ add(2,'forty-five-meaning','算出的5和9分别表示什么？','45的对照 · 先解释商',()=>fortyFiveScene('meaning'),'算式先持续显示，再让学生把商放回问题中解释。');
+ add(2,'forty-five-unit','核对商的含义，再填单位。','45的对照 · 含义与单位',()=>fortyFiveScene('unit'),'第一题求盘数，单位是盘；第二题求每盘个数，单位是个。先口答，下页核对。');
+ add(2,'forty-five-reply','单位已标好，分别怎样完整回答？','45的对照 · 先口答答句',()=>fortyFiveScene('reply'),'保留算式和单位，答句尚未出现，先听学生口答。');
+ add(2,'forty-five-a','核对两道题的完整答句。','45的对照 · 核对答句',()=>fortyFiveScene('answer'),'同一句口诀算出两个商，商的含义根据各自题目确定。');
+ bindProblem(2,'forty-five-list','forty-five-a','45个苹果：每9个装一盘，可以装几盘？平均装在5个盘里，每盘几个？','迁移对照');
+}
+add(2,'winter-q','从冬至起，一直数到“九九”，共多少天？','想想做做3 · 数九',()=>board('每一个“九”都是9天','9个9是多少？','','先列式，再说口诀。'), '只回答教材数学问题，不将民俗说法作为实际气象日期预测。');
+add(2,'winter-a','9×9＝81（天），一共81天。','核对九九八十一',()=>board('九个9天','9 × 9 ＝ 81（天）','九九八十一','答：一共81天。'));
+bindProblem(2,'winter-q','winter-a','“数九”从冬至那天数起，每个“九”是9天，一直数到“九九”，共多少天？','教材第49页 · 第3题');
+for(const mode of ['average','groups']){
+ const p='people-'+mode,avg=mode==='average',b=avg?6:9,a=avg?9:6,independent=!avg;
+ const problem=avg?'54个小朋友平均分成6组打扫卫生，每组有几人？':'54个小朋友打扫卫生，每组9人，分成了几组？';
+ add(2,p+'-q','54个小朋友先在一起。题目告诉了什么？','想想做做4 · 看图读题',()=>distribute(mode,0,'','person',54,6,9), '先呈现完整的54人。平均分6组时可画6个已知的空组；每组9人时，组数未知，不预先画6个框。');
+ if(!independent){
+  add(2,p+'-1','先给每组1人，让6组同样多。','看清第一次分配',()=>distribute(mode,1,'','person',54,6,9), '同一批54个图标保持身份；每轮6组各放1人，剩余人数相应减少。');
+  add(2,p+'-finish','继续平均分，分完后每组有几人？','分到最后，观察结果',()=>distribute(mode,9,'','person',54,6,9),'结束后只呈现分组结果。',()=>Array.from({length:8},(_,i)=>distribute(mode,i+2,'','person',54,6,9)));
+  findStep(p+'-1').jumpTo=p+'-finish';
+ }
+ add(2,p+'-list','根据已知条件，怎样列式？','学生独立列式',()=>listScene('person-'+mode,independent),'第二题先独立列式，分配提示按需展开，不重复默认逐轮演示。此时不问商的含义或单位。');
+ add(2,p+'-equation','核对已知数量与算式，再用口诀求商。','核对列式理由，商留空',()=>equationScene('person-'+mode,independent),`54是小朋友总人数，${b}是${avg?'已知的组数':'已知的每组人数'}，对应题中的条件。商留空，用六九五十四计算。`);
+ support(p+'-equation',avg?'再看平均分':'再看每9人一组',avg?'先定好6组，再让各组同样多。':'每次取9人形成一组，分完数有几组。',()=>distribute(mode,avg?9:6,'','person',54,6,9), '需要时重演已经做过的分配，帮助解释刚才列出的算式；商仍由学生口答。',()=>Array.from({length:avg?10:7},(_,i)=>distribute(mode,i,'','person',54,6,9)));
+ add(2,p+'-calculate',`54÷${b}＝${a}，先核对计算结果。`,'核对商',()=>calculationScene('person-'+mode), '先呈现算出的商，下一步才解释含义。');
+ add(2,p+'-meaning-q',`算出的${a}表示什么？请指图说明。`,'商的含义 · 先口答',()=>meaningScene('person-'+mode), '保留完整算式，先问商的含义，不提前给单位选项。');
+ add(2,p+'-unit',`先核对${a}的含义，再确定单位。`,'核对含义，确定单位',()=>unitScene('person-'+mode),'先指图核对上一问的解释，再选择单位。');
+ add(2,p+'-unit-a','单位已标好，怎样完整回答这道题？','标单位，先口答答句',()=>unitScene('person-'+mode,true),'单位标完后先口答，下一页才显示答句。');
+ add(2,p+'-a','核对完整答句。','核对答句',()=>answerScene('person-'+mode),'完整答句只在学生口答后核对。');
+ bindProblem(2,p+'-q',p+'-a',problem,'教材第49页 · 第4题');
+}
+add(2,'oral-q','离开图，能用9的口诀求商吗？','独立口算检查',()=>board('不摆图，先口答','72 ÷ 8 ＝ □','45 ÷ 9 ＝ □','再说各自用的口诀。'), '第一题除数不是9，仍用八九七十二。纯口算不强加单位。');
+add(2,'oral-a','72÷8＝9；45÷9＝5。','核对口算与口诀',()=>board('核对结果与口诀','72 ÷ 8 ＝ 9','45 ÷ 9 ＝ 5','八九七十二　·　五九四十五'));
+bindProblem(2,'oral-q','oral-a','算出72÷8和45÷9的商，说出对应口诀。','口算');
+add(2,'review-chant-q','忘了一句口诀，能怎样推想？','回顾① · 口诀规律',()=>overview(), '学生口答加9或减9，也可用手指帮助记忆，不重讲九句。');
+add(2,'review-chant-a','多1个9就加9，少1个9就减9。','回顾① · 核对推想',()=>overview(true));
+bindProblem(2,'review-chant-q','review-chant-a','忘了一句9的口诀，可以怎样推想或帮助记忆？','回顾');
+function recallChants(done=false){
+ const s=base();s.decor=paper(125,45,1350,586);s.annotation=T(800,118,done?'核对口诀':'不看口诀表，按不同顺序口答。',35,'muted');
+ [6,8,7,5,9,4].forEach((n,i)=>{s.annotation+=T(i%2?1160:440,270+Math.floor(i/2)*135,done?chants[n-1]:`${chinese[n-1]}九（　　）`,54,'groups');});
+ s.description=done?'乱序核对六九、八九、七九、五九、九九、四九。':'六句口诀按不同顺序留空，口诀表和结果均未显示。';return s;
+}
+add(2,'recall-q','不看口诀表，能按不同顺序说出这六句吗？','回顾② · 乱序记忆检查',()=>recallChants(),'先检查六九、八九、七九；答不出时允许用加9、减9或手指推想，之后再练熟。');
+add(2,'recall-a','核对口诀，重点再读刚才没记住的句子。','回顾② · 核对口诀记忆',()=>recallChants(true));
+bindProblem(2,'recall-q','recall-a','不看口诀表，补出这六句口诀。','记忆检查');
+add(2,'review-meaning-q','商算对后，怎样确定单位？请指图说明。','回顾③ · 商的含义',()=>comparison(), '先指3个完整的份，再指一份里的9个圆片，分别说份与个。');
+add(2,'summary-a','口诀帮助计算；答案的含义要回到题目和图中看。','回顾③ · 核对单位，完成本课',()=>comparison(true), '本课至此结束。综合应用题留到复习课，不再追加。');
+bindProblem(2,'review-meaning-q','summary-a','两道圆片题的答案分别数什么？应该写什么单位？','回顾');
+
+let problemAnimation=null;
+function renderProblem(step,animate){
+ const card=$('#problem'),main=$('#classroom'),p=step.problem,oldID=card.dataset.problemId,oldPosition=card.dataset.position;
+ const before=card.getBoundingClientRect();
+ card.hidden=!p;main.classList.toggle('has-problem',!!p);main.classList.toggle('problem-opening',!!p?.opening);
+ if(!p)return;
+ card.dataset.problemId=p.id;card.dataset.position=p.opening?'top':'bottom';$('#problemText').textContent=p.text;$('#problemLabel').textContent=p.label||'原题';
+ const after=card.getBoundingClientRect();
+ if(animate&&state.speed>0&&!matchMedia('(prefers-reduced-motion: reduce)').matches&&oldID===p.id&&oldPosition==='top'&&!p.opening&&card.animate){
+  problemAnimation=card.animate([{transform:`translate(${before.left-after.left}px,${before.top-after.top}px)`},{transform:'translate(0,0)'}],{duration:Math.min(550,state.speed),easing:'cubic-bezier(.22,.7,.25,1)'});
+ }
+}
+function distributionTarget(){const id=currentStep().jumpTo;return id?lessons[state.section].findIndex(s=>s.id===id):-1;}
+function toggleSupport(){
+ if(state.busy||!currentStep().support)return;
+ cancelMotion();state.support=!state.support;void render(true);
+}
+function finishDistribution(){const target=distributionTarget();if(target<0||state.busy)return;cancelMotion();state.support=false;state.indices[state.section]=target;void render(true);}
+
+// One persistent object node per actual cube/star. Animation is derived from the final state.
+const state={section:0,indices:[0,0,0],speed:700,busy:false,generation:0,raf:null,display:null,pending:null,support:false};
+const topicLabels=['教材例4 · 编9的口诀','教材试一试 · 乘除法','想想做做 · 练习与回顾'];
+function currentStep(){return lessons[state.section][state.indices[state.section]];}
+function current(){const step=currentStep();return state.support&&step.support?{...step,...step.support,id:step.id}:step;}
+function objectNodes(){return Array.from($('#objects').children);}
+function cancelMotion(){if(problemAnimation){problemAnimation.cancel();problemAnimation=null;}state.generation++;if(state.raf!==null)cancelAnimationFrame(state.raf);state.raf=null;if(state.pending){state.pending(false);state.pending=null;}state.busy=false;$('#unitMotion').innerHTML='';}
+function buttonStates(){$('#support').hidden=!currentStep().support;$('#support').disabled=state.busy;$('#support').textContent=state.support?'返回当前题':currentStep().support?.label||'提示';$('#finishDistribution').hidden=distributionTarget()<0;$('#finishDistribution').disabled=state.busy;const i=state.indices[state.section],last=i===lessons[state.section].length-1;$('#prev').disabled=state.section===0&&i===0;$('#next').disabled=state.busy||(state.section===2&&last);$('#next').textContent=state.busy?'正在演示…':current().scene().unitTask?.phase==='question'?'口答后标注 →':last?state.section===2?'本课完成 ✓':'下一环节 →':'下一步 →';}
+function applyData(data,positions=null){
+ $('#unitMotion').innerHTML='';
+ $('#decor').innerHTML=data.decor;$('#annotation').innerHTML=data.annotation;$('#sceneDesc').textContent=data.description;
+ const group=$('#objects'),keep=new Set(data.objects.map(o=>o.id)),old=new Map(objectNodes().map(e=>[e.dataset.id,e]));
+ old.forEach((e,id)=>{if(!keep.has(id))e.remove();});
+ data.objects.forEach(o=>{
+  let e=old.get(o.id);if(!e){e=document.createElementNS(NS,'g');e.dataset.id=o.id;e.setAttribute('class','token');const use=document.createElementNS(NS,'use');use.setAttribute('href',`#${o.kind}Shape`);e.append(use);}
+  const p=positions?.get(o.id)||o;e.setAttribute('transform',`translate(${p.x} ${p.y}) scale(${p.s})`);e.dataset.x=String(p.x);e.dataset.y=String(p.y);e.dataset.s=String(p.s);e.dataset.kind=o.kind;group.append(e);
+ });
+ state.display=data;
+}
+function metadata(deferUnit=false,moving=false){
+ const step=current(),i=state.indices[state.section],len=lessons[state.section].length;
+ const title=moving?'先观察图的变化。':deferUnit?'把单位标进括号，再完整回答。':step.title;
+ $('#question').textContent=title;$('#sceneTitle').textContent=title;$('#live').textContent=step.problem.text+' '+title;$('#topicNumber').textContent=String(state.section+1).padStart(2,'0');$('#topicLabel').textContent=topicLabels[state.section];$('#classroom').setAttribute('aria-labelledby',`tab${state.section}`);
+ $$('[data-section]').forEach(b=>b.setAttribute('aria-selected',Number(b.dataset.section)===state.section));
+ $('#stepCount').textContent=`${i+1} / ${len}`;$('#stateName').textContent=step.label;$('#progress').style.width=`${(i+1)/len*100}%`;
+ $('#jump').innerHTML=lessons[state.section].map((s,j)=>`<option value="${j}"${j===i?' selected':''}>${j+1}. ${esc(s.label)} — ${esc(s.title)}</option>`).join('');
+ $('#noteTitle').textContent=step.label;$('#note').textContent=step.note;$('#checkpoint').textContent=step.check?`观察学生：${step.check}`:'';buttonStates();
+}
+function morph(data,duration,generation){
+ if(duration===0){applyData(data);return Promise.resolve(true);}
+ const from=new Map(objectNodes().map(e=>[e.dataset.id,{x:Number(e.dataset.x),y:Number(e.dataset.y),s:Number(e.dataset.s)}]));
+ data.objects.forEach(o=>{if(!from.has(o.id))from.set(o.id,{x:o.x+70,y:o.y,s:o.s*.82});});
+ // Show final annotations only after mathematical movement has completed.
+ applyData({...data,annotation:''},from);
+ return new Promise(resolve=>{state.pending=resolve;let start=null;function frame(time){
+  if(generation!==state.generation){resolve(false);return;}
+  if(start===null)start=time;const t=Math.min(1,(time-start)/duration),e=t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+  const nodes=new Map(objectNodes().map(n=>[n.dataset.id,n]));
+  data.objects.forEach(o=>{const a=from.get(o.id),p={x:a.x+(o.x-a.x)*e,y:a.y+(o.y-a.y)*e,s:a.s+(o.s-a.s)*e},n=nodes.get(o.id);n.setAttribute('transform',`translate(${p.x} ${p.y}) scale(${p.s})`);n.dataset.x=String(p.x);n.dataset.y=String(p.y);n.dataset.s=String(p.s);});
+  if(t<1)state.raf=requestAnimationFrame(frame);else{state.raf=null;state.pending=null;applyData(data);resolve(true);}
+ }state.raf=requestAnimationFrame(frame);});
+}
+async function render(animate=false){
+ const step=current(),data=step.scene(),generation=state.generation;
+ const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+ const oldNodes=objectNodes(),samePositions=oldNodes.length===data.objects.length&&data.objects.every(o=>{const e=oldNodes.find(n=>n.dataset.id===o.id);return e&&Number(e.dataset.x)===o.x&&Number(e.dataset.y)===o.y&&Number(e.dataset.s)===o.s;});
+ const moving=animate&&state.speed>0&&!reduced&&data.objects.length>0&&(!samePositions||!!step.sequence)&&!data.unitFlight;
+ renderProblem(step,animate);metadata(animate&&state.speed>0&&!reduced&&!!data.unitFlight,moving);
+ if(!animate||state.speed===0||reduced||!data.objects.length){applyData(data);buttonStates();return;}
+ if(data.unitFlight){state.busy=true;buttonStates();const done=await flyUnit(data,state.speed,generation);if(!done||generation!==state.generation)return;state.busy=false;metadata();return;}
+ if(samePositions&&!step.sequence){applyData(data);metadata();return;}
+ const frames=step.sequence?step.sequence():[data];state.busy=true;buttonStates();
+ for(const f of frames){if(generation!==state.generation)return;const done=await morph(f,step.sequence?Math.max(180,state.speed*.67):state.speed,generation);if(!done||generation!==state.generation)return;}
+ applyData(data);state.busy=false;metadata();
+}
+function flyUnit(data,duration,generation){
+ applyData({...data,annotation:data.unitInitialAnnotation});
+ const f=data.unitFlight,layer=$('#unitMotion');
+ return new Promise(resolve=>{state.pending=resolve;let start=null;function frame(time){
+  if(generation!==state.generation){resolve(false);return;}
+  if(start===null)start=time;
+  const t=Math.min(1,(time-start)/duration),p=1-Math.pow(1-t,3);
+  layer.innerHTML=T(f.from.x+(f.to.x-f.from.x)*p,f.from.y+(f.to.y-f.from.y)*p,f.unit,40-8*p,f.cls);
+  if(t<1)state.raf=requestAnimationFrame(frame);else{state.raf=null;state.pending=null;applyData(data);resolve(true);}
+ }state.raf=requestAnimationFrame(frame);});
+}
+function chooseUnit(unit){
+ if(state.busy||$$('dialog[open]').length)return;
+ const task=current().scene().unitTask;
+ if(!task||task.phase!=='question'||!task.options.includes(unit))return;
+ if(unit!==task.unit){$('#unitFeedback').textContent=task.hint;return;}
+ next();
+}
+function next(){if(state.busy)return;const s=state.section,i=state.indices[s];if(s===2&&i===lessons[2].length-1)return;cancelMotion();state.support=false;if(i<lessons[s].length-1)state.indices[s]++;else{state.section++;state.indices[state.section]=0;}void render(true);}
+function prev(){cancelMotion();state.support=false;if(state.indices[state.section]>0)state.indices[state.section]--;else if(state.section>0){state.section--;state.indices[state.section]=lessons[state.section].length-1;}void render(false);}
+function selectSection(s){if(!Number.isInteger(s)||s<0||s>2)return;cancelMotion();state.support=false;state.section=s;void render(false);}
+function goTo(s,i){if(!lessons[s]||!lessons[s][i])throw Error('无效教学状态');cancelMotion();state.support=false;state.section=s;state.indices[s]=i;return render(false);}
+$('#support').addEventListener('click',toggleSupport);
+$('#scene').addEventListener('click',e=>{const card=e.target.closest?.('[data-unit-choice]');if(card)chooseUnit(card.dataset.unitChoice);});
+$('#scene').addEventListener('keydown',e=>{const card=e.target.closest?.('[data-unit-choice]');if(card&&(e.key==='Enter'||e.code==='Space')){e.preventDefault();e.stopPropagation();chooseUnit(card.dataset.unitChoice);}});
+$('#finishDistribution').addEventListener('click',finishDistribution);
+window.addEventListener('resize',()=>{if(problemAnimation){problemAnimation.cancel();problemAnimation=null;}});
+$('#next').addEventListener('click',next);$('#prev').addEventListener('click',prev);
+$$('[data-section]').forEach(b=>b.addEventListener('click',()=>selectSection(Number(b.dataset.section))));
+$('#reset').addEventListener('click',()=>{cancelMotion();state.support=false;state.indices[state.section]=0;void render(false);});
+$('#resetAll').addEventListener('click',()=>{cancelMotion();state.support=false;state.section=0;state.indices=[0,0,0];$('#teacher').close();void render(false);});
+$('#jump').addEventListener('change',e=>{void goTo(state.section,Number(e.target.value));});
+$('#speed').addEventListener('change',e=>{cancelMotion();state.speed=Number(e.target.value);void render(false);});
+$('#skipMotion').addEventListener('click',()=>{cancelMotion();void render(false);});
+$('#teacherBtn').addEventListener('click',()=>{cancelMotion();void render(false);$('#teacher').showModal();});
+$('#bookBtn').addEventListener('click',()=>{cancelMotion();void render(false);$('#book').showModal();});
+$$('[data-close]').forEach(b=>b.addEventListener('click',()=>$('#'+b.dataset.close).close()));
+document.addEventListener('keydown',e=>{if($$('dialog[open]').length||/INPUT|SELECT|TEXTAREA/.test(e.target.tagName)||e.target.closest?.('[data-unit-choice]')||e.altKey||e.ctrlKey||e.metaKey)return;if(e.code==='Space'&&e.target.tagName==='BUTTON')return;if(e.key==='ArrowRight'||e.code==='Space'){e.preventDefault();next();}else if(e.key==='ArrowLeft'){e.preventDefault();prev();}});
+$('#fullscreen').addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();}catch{$('#fullscreen').textContent='请用F11全屏';}});
+window.lessonAPI={lessons,state,current,render,next,prev,selectSection,goTo,cancelMotion,finishDistribution,toggleSupport,currentStep,chooseUnit,scene:()=>current().scene(),defs};
+void render(false);
+
+$("#fingerGuide").addEventListener("click",()=>goTo(0,lessons[0].findIndex(s=>s.id==="finger-intro")));
+
+</script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920" integrity="sha512-L0ha0OXavK/8okipN9F8BtP84dg9DUhPERbBXzwI6dgTA55d2+yweo3pn5CSFYs45/r8md2+xvUPtTdvTNRfjA==" data-cf-beacon='{"version":"2024.11.0","token":"7939e04a4baf43c8b86a560f74aac60e","spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
